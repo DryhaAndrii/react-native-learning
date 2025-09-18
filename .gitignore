@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# React Native / Android
+.android/
+*.keystore
+*.jks
+
+# React Native / iOS
+ios/Pods/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad/
+DerivedData/
+
+# Metro / Packager
+.expo/
+.expo-shared/
+.bundle/
+
+# Node
+node_modules/
+.npm/
+.pnpm-store/
+
+# TypeScript
+*.tsbuildinfo
+
+# Env
+.env
+.env.*
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Build outputs
+build/
+dist/
+android/app/build/
+ios/build/
