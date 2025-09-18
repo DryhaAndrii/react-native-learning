@@ -1,8 +1,8 @@
 # reactNativeLearning
 
-Сводный репозиторий с учебными проектами React Native.
+A consolidated repository with React Native learning projects.
 
-## одпроекты
+## Subprojects
 
 - NativeWindExpoModulesTesting
 - NativeWindFetching
@@ -10,14 +10,13 @@
 - NativeWindReanimated
 - NativeWindRedux-Storage
 - NativeWindUnitTests
-- reactNativeFullstackApp (с папками reactNativeApp и server)
+- reactNativeFullstackApp (folders: reactNativeApp and server)
 - rgbToHexRNative
 
-## ак использовать
-- ереходите в нужную папку подпроекта и устанавливайте зависимости: 
-pm i или yarn
-- ля Expo-проектов: 
-px expo start
-- ля React Native CLI: 
-px react-native start и 
-px react-native run-android/un-ios
+## How to use
+
+- Go to the subproject folder and install dependencies: `npm i` or `yarn`
+- For Expo projects: `npx expo start`
+- For React Native CLI:
+  - Start Metro: `npx react-native start`
+  - Run the app: `npx react-native run-android` or `npx react-native run-ios`
